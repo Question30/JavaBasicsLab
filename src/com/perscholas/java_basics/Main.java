@@ -54,8 +54,8 @@ public class Main {
         Create a constant called SALES_TAX and add sales tax to the subtotal to obtain the totalSale amount.
         Be sure to format the results to two decimal places.
          * */
-        double coffee = 2.50, cappuccino = 4.75, espresso = 3.25;
-        double subtotal = coffee + cappuccino + espresso;
+        double coffee = 2.50 , cappuccino = 4.75, espresso = 3.25;
+        double subtotal = coffee *3  + cappuccino *4 + espresso *2;
         final double SALES_TAX = .12;
         double totalSale = subtotal + (subtotal * SALES_TAX);
 
